@@ -1,0 +1,11 @@
+syntax = "proto3";
+message Student {
+    // 姓名
+    string name = 2;
+
+    // 年龄
+    int32 age = 3;
+
+    // 习惯（集合）
+    repeated string habits = 4;
+}
